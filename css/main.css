@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Bold.woff2') format('woff2'),
+        url('../fonts/Roboto-Bold.woff') format('woff'),
+        url('../fonts/Roboto-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Medium.woff2') format('woff2'),
+        url('../fonts/Roboto-Medium.woff') format('woff'),
+        url('../fonts/Roboto-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+body {
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    background: #FFD845;
+}
+
+
+.pokemon__heading-img {
+    width: 610px;
+    height: 225px;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+
+.pokemon__first-select {
+    margin-top: 70px;
+    width: 260px;
+    height: 60px;
+    border: 2px solid #000;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.pokemon__first-select::placeholder {
+    color: #000;
+}
+
+.pokemon__first-select + .pokemon__first-select {
+    margin-left: 40px;
+}
+
+.pokemon__list {
+    margin: -30px;
+    padding: 0;
+    list-style: none;
+}
+
+.pokemon__item {
+    margin: 15px;
+    width: 307px;
+    height: 423px;
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 15px;
+}
+
+.pokumon__img-section {
+    height: 255px;
+}
+
+.pokemon__list-line {
+    margin-bottom: 20px;
+    margin-left: -32px;
+}
+
+.pokemon__list-section {
+    padding: 0px 30px 37px;
+}
+
+.card-img-top {
+    margin-top: 30px;
+    width: 157px;
+    height: 157px;
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 5px;
+    margin-right: 102px;
+}
+
+.pokumon__list-desc {
+    margin-bottom: 25px;
+    text-align: left;
+}
+
+.pokumon__age {
+    margin-left: 30px;
+}
+
+.pokumon__weight {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+}
